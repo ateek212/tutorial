@@ -1,0 +1,9 @@
+*******Javascripts***************
+How can you find the reverse string ?
+
+function reverse(str)
+{
+	return str.split("").reverse().join("");
+}
+
+reverse('Hello')
