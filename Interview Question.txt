@@ -63,3 +63,113 @@ reverse("hello");
 
  const arrs=[1,2,3,4,5,6];
  pairs(arrs,5);
+4.How do you find the duplicate number on a given integer array?
+
+function dupnumber(arr)
+{
+       const seen={};
+       for(let i=0; i<arr.length; i++)
+	{
+		if(seen[arr[i]])
+		{
+                   return arr[i];
+		}
+		else
+		{
+			seen[arr[i]]=true;
+		}
+	}
+       return null;
+}
+
+const arrs=[1,2,3,4,5,6,7,2];
+dupnumber(arrs);
+
+5.How do you find duplicate numbers in an array if it contains multiple duplicates?
+
+  function dupnumber(arr)
+{
+       const seen={};
+       const result=[];
+       for(let i=0; i<arr.length; i++)
+	{
+		if(seen[arr[i]])
+		{
+                   seen[arr[i]]++;
+		}
+		else
+		{
+			seen[arr[i]]=1;
+		}
+	}
+        for(let key in seen)
+	{
+		if(seen[key]>1)
+		{
+                  result.push(parseInt(key));
+		}
+	}
+       return result;
+}
+
+const arrs=[1,2,3,4,5,6,7,2,3,4,5];
+dupnumber(arrs);
+
+6.How do you remove duplicates from an array in place?
+
+function duplicate(arr){
+  
+	return  Array.from(new Set(arr));
+
+}
+//integer
+const arrs=[1,2,3,4,5,2,3,1,5,6];
+duplicate(arrs);
+
+//string
+const arrs=['a','b','b','a','c'];
+duplicate(arrs);
+
+7.How do you remove duplicates from an array in place?
+
+function dupremove(arr){
+  
+    const unique={};
+    for(let i=0; i<arr.length; i++)
+    {
+      if(unique[arr[i]])
+	{
+          arr.splice(i,1);
+          i--;
+	}
+	else
+	{
+		unique[arr[i]]=true;
+	}
+    } 
+    return arr;
+
+}
+dupremove([1,2,3,2,3,1,4]);
+
+8.How are duplicates removed from an array without using any library?
+
+
+ function dupremove(arr){
+   
+      for(let i=0 ; i<arr.length; i++)
+	{
+		for(j=i+1; j<arr.length; j++)
+		{
+			if(arr[i]===arr[j])
+			{
+                          arr.splice(j,1); 
+  			  j--;
+			}
+		}
+	}
+      return arr;
+
+}
+
+dupremove([1,2,3,4,5,1,2,3,4,5]);
