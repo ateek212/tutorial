@@ -196,3 +196,95 @@ function getcash(amount)
 }
 
 getcash(5000);
+
+10.how can find out the get cash amount from Atm with object ?
+
+function getcashAtm(amount, notes)
+{
+
+	const banknotes=Object.entries(notes).map(([nominal,num])=>[Number(nominal), num]).sort((a,b)=>b[0]-a[0]);
+	const results=[];
+	for(let i=0; i<banknotes.length; i++)
+	{
+		const [nominal, num]=banknotes[i];
+		let avblenotes=nominal*num;
+		while(avblenotes && amount>=nominal)
+		{
+			avblenotes-=nominal;
+			amount-=nominal;
+			results.push(nominal);
+		}	
+	}
+	return results;
+}
+
+const notes={
+ 2000:3,
+ 1000:5,
+ 500:6,
+ 200:7,
+ 100:8,
+ 50:4,
+ 20:9,
+ 10:6,
+ 5:7,
+ 2:6,
+ 1:2
+}
+getcashAtm(5565,notes);
+
+11.How to find out the plindrom string in javascript;
+
+function plindrom(str)
+{
+   const len=str.length;
+   for(let i=0; i<len/2; i++)
+   {
+   	if(str[i]!==str[len-1-i])
+	{
+	   return 'It is not plindrom';
+	} 
+   }
+   return 'it is plindrom';
+}
+plindrom('hello');
+
+function checkplindrom(str)
+{
+     var arr=str.split("");
+     var reverse=arr.reverse();
+     var strnew=reverse.join("");
+       if(str==strnew)
+	{
+           console.log("it is plindrom")
+	}
+        else
+	{ 
+	   console.log("it is not plindrom")
+	}
+}
+checkplindrom("madam");
+
+12.How to count the charactor from string?
+
+function count(str)
+{
+    const count={};
+    for(let i=0; i<str.length; i++)
+     {
+	let char=str.charAt(i);
+	if(count[char])
+	{
+	   count[char]++;
+	}
+	else
+	{
+	  count[char]=1;
+	}
+     }
+   return count;
+}
+
+count("hello");
+
+
