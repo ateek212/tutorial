@@ -173,3 +173,26 @@ dupremove([1,2,3,2,3,1,4]);
 }
 
 dupremove([1,2,3,4,5,1,2,3,4,5]);
+
+
+9. How to find the get cash from Atm?
+
+
+function getcash(amount)
+{
+    const banknotes=[2000,1000,500,200,100,50,20,10,5,2,1];
+    const results=[];
+    for(let i=0; i<banknotes.length; i++)
+     { 
+	let notes=banknotes[i];
+        while(amount>=notes)
+	{
+		amount-=notes;
+		results.push(notes);
+	}
+
+     }
+    return results;
+}
+
+getcash(5000);
