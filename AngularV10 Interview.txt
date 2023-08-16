@@ -1,0 +1,98 @@
+1.What is the angular?Explain advantage and disadvantage?
+2.What is the feature?
+3.what is the latest version of angular?
+4.what is the component in angular?
+5.what is the data binding in angular?
+6.what is the directives? explain its type? 
+7.How many types of data binding are there?
+8.what is the dependency injection? 
+9.what is the angular framework?
+10.what is the observable? what is the difference observable, observer, subscribing?
+11.what is ngRxjs? ngRxjs vs ngNxjs?
+12.what is the subject? explain its types?
+13.what is the BehaviorSubject?
+14.what is the life cycle hook(component hook)? how many type of life cycle hooks are there with example?
+15.what is the content projection in angular?
+16.what is the decorater? explain its type?
+17.what is the pipes? explain its type?
+18.what is the some powerful feature integrated in angular?
+19.how can you optimization your application
+20.what is the change detection strategy? How many type of change detection strategy are there?
+21.what is new upadate in angular version 10?
+22.what is the Async pipes?
+22.what is the key difference reactive forms and template forms?
+23.what is the angular universal?
+24.Authentication vs authorization?
+25.What is Eager(Preloading) and Lazy loading?
+26.What is the View encapsulation? explain its types?
+27.what is the AOT and JIT compilation? explain its advantage?
+28.Angular vs Angularjs?
+29.@Self vs @Skipself vs @Optional vs @Host?
+30.what is the angular injector?
+31.@Injectable vs @Injector?
+32.What is view providers?
+33.What is the Http Interceptor?
+34.component vs Directives?
+35 what is the ng ?
+36.what is the template statement vs expression?
+37.what is the promises and Observable?
+38.what is the folder structure?
+39.what is the polyfill.js?
+40.what is the SPA(single page Application)
+41.what is the main building block ?
+42.what is the ngzone?
+43.what is angular.json ?
+44.what is package.json and package-lock.json?
+45.what is the angular CLI?
+46.what is the Route gurad ? explain its type?
+47.what is the wildcard ?
+48.virtual Dom vs shadow Dom?
+49.what is the enviroment in angular?
+50.what is the angular testing (unit testin)?
+51.what is the map operator and filter operator?
+52.SwitchMap vs MergeMap?
+53.Retry vs repeat operator?
+54.what is the end to end tool?
+55.what is the webpack and Systemjs?
+
+ 
+
+***********************************************************************
+Here are some common technical questions you may encounter in an Angular interview:
+
+1. What is Angular? What are the key features of Angular?
+
+2. What are the differences between AngularJS and Angular?
+
+3. Explain the Angular component lifecycle and how it works.
+
+4. What is dependency injection in Angular? How do you use it?
+
+5. What is a service in Angular? How do you create and use services in Angular?
+
+6. What is a directive in Angular? How do you create and use directives in Angular?
+
+7. What is the difference between template-driven forms and reactive forms in Angular?
+
+8. How do you handle errors in Angular applications?
+
+9. What is lazy loading in Angular? How do you implement lazy loading?
+
+10. Explain the difference between ngOnChanges and ngOnInit in Angular.
+
+11. What is the difference between ViewChild and ContentChild in Angular?
+
+12. How do you optimize the performance of an Angular application?
+
+13. What are some best practices for structuring an Angular application?
+
+14. What are Angular modules? How do you create and use modules in Angular?
+
+15. How do you implement routing in Angular? What are some best practices for Angular routing?
+
+
+
+
+
+
+
