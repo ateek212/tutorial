@@ -90,6 +90,97 @@ Here are some common technical questions you may encounter in an Angular intervi
 
 15. How do you implement routing in Angular? What are some best practices for Angular routing?
 
+--------------------------------------------------------------------------------------------------
+
+
+HTML,HTML,CSS,CSS3,Bootstrap,Bootstrap4,SCSS,JavaScript,TypeScript,AngularJS,Angular8,NodeJS
+
+HTML
+-	What are the new features/elements of HTML5?
+-	What are sematic elements?
+-	Explain the layout of HTML
+-	What is IFrame?
+-	What is SVG?
+-	What are inline & block elements?
+-	Is it mandatory to write <!DOCTYPE HTML> in every HTML5 file?
+CSS
+-	How to center an element in the middle of the screen?
+-	What is opacity?
+-	Difference between visibility:hidden & display:none?
+-	Different types of positions?
+-	Difference between absolute position & relative positions
+-	What is media query?
+-	What is BOX model?
+-	What are pseudo class & pseudo elements?
+-	What is CSS specificity?
+-	How can you make responsive design for a web app?
+-	What are new things in CSS3?
+JavaScript
+-	What are the ways to use JS code in HTML file?
+-	JS code should be written in head section or body section in HTML code for better web app performance?
+-	What is the difference between var,let & const?
+-	What are the features of ES6(ES2015)?
+-	What is JavaScript Hoisting?
+-	Explain string functions in JS
+-	Explain mathematical functions in JS
+-	Explain array functions in JS
+-	Explain date functions in JS
+-	Difference between substring() & substr()
+-	Difference between splice() & slice()
+-	Which array declaration is better & why?: var arr=[] or var arr=new Array()
+-	Different datatypes in JS
+-	If a variable is not initialized,what is its default value?
+-	Difference between null & undefined?
+-	What are pure functions in JS?
+-	Explain call(),apply() & bind() in JS?
+-	What are arrow functions?
+-	What is a callback & promise and difference between them?
+-	What is this keyword & its uses?
+-	Explain foreach,for in & for of loop in JS & difference.
+-	What is event bubbling & event capturing?
+-	What is DOM & explain DOM tree structure?
+-	What is deferred script?
+-	What are JS events?
+-	What is async await?
+-	What is JS closure
+
+https://javascript.info/
+
+Angular 8
+-	What are the feature of Angular?
+-	What is the latest version of Angular?
+-	What is the difference between Angular 11 & previous versions?
+-	Define component,module,model & directive in Angular?
+-	Is Angular a framework or library? What is the difference?
+-	What are the different types of bindings?
+-	What are the different ways to perform communication between different components?
+-	What is local reference?
+-	What are the lifecycle methods in Angular?
+-	What is View Encapsulation?
+-	What are structural directives & attribute directives?
+-	What are services & Dependency Injection?
+-	What is routing?
+-	How to create child routes?
+-	What are guards?
+-	What is an Observable & observer?
+-	How to create our own observable?
+-	Difference between promise & observable?
+-	What are forms & its types?
+-	How to add validations to forms?
+-	What is pipe & its types?
+-	Explain Angular Security
+-	What is Angular Universal?
+-	What is RxJS library?
+-	What is NgRx?
+-	Explain state management in Angular using store
+-	Explain effects in NgRx
+
+https://angular.io/
+https://www.tektutorialshub.com/angular-tutorial/
+
+NOTE: Questions marked in bold are very important & mostly asked in interview
+
+
 
 
 
